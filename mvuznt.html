@@ -22,17 +22,31 @@
         text-align: center;
         color: #75379B;
       }
-      .jumbotron {
-        background-image: url("https://66.media.tumblr.com/8fa6c3c3666978087f91228153067a90/tumblr_p6pjimf5HP1xp1j77o1_400.gif");
-        margin: 50px;
+      
+      .masthead {
+          position: relative;
+          width: 100%;
+          height: auto;
+          min-height: 35rem;
+          padding: 15rem 0;
+          background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: scroll;
+          background-size: cover;
       }
+
     </style>
   </head>
   <body>
-    <div class="jumbotron">
-      <h1 class="titlehead"> isaac and cindy </h1>
-      <p> we are forever. </p>
-    </div>
+     <header class="masthead">
+        <div class="container d-flex h-100 align-items-center">
+          <div class="mx-auto text-center">
+            <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
+            <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+          </div>
+       </div>
+     </header>
     
   </body>
 </html>
